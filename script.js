@@ -38,13 +38,13 @@ function playRound(userSelection,compSelection) {
         {
             userScore++;
             userScoreEle.textContent = userScore;
-            return `Yeah!,You Won! (${userSelection} beats ${compSelection})`
+            return `You Won! (${userSelection} beats ${compSelection})`
             // return `Yeah!,You Won!`
         }
     else {
         compScore++;
         compScoreEle.textContent = compScore;
-            return `Oops!,You lose! (${compSelection} beats ${userSelection})`
+            return `You lose! (${compSelection} beats ${userSelection})`
             //return `Oops!,You lose!`
         }       
     
